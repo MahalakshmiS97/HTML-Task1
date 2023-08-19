@@ -1,0 +1,88 @@
+<!-- Create an HTML page, which should contain all types of input elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body style="background-color: #317773">
+    <form align="center" style="background-color: #E2D1F9;">
+        <h1> Personal Detsils</h1><br>
+        <label for="name"> Name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name"><br /><br />
+        <label for="email"> Email : </label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email"><br /><br />
+        <label for="contact">Contact Number:</label>
+        <input type="text" name="contact" id="contact" placeholder="Enter you mobile no."><br /><br />
+        Gender:
+        <input type="radio" name="gender" id="male">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="gender">Female</label><br>
+        <h3> Educational Qualification</h3><br>
+        <label for="degree"> Degree:</label>
+        <select name="degree" id="degree">
+            <option selected>-- Select your degree --</option>
+            <option>BE</option>
+            <option>B.Sc</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.com</option>
+            <option>Others</option>
+        </select><br><br>
+        <label for="department"> Department:</label>
+        <select name="department" id="department">
+            <option selected>-- Select your department --</option>
+            <option>Computer Science</option>
+            <option>Computer Application</option>
+            <option>Information Technology</option>
+            <option>Business Administration</option>
+            <option>Commerce</option>
+            <option>Others</option>
+        </select><br><br>
+        <label for="masterdegree">Master Degree:</label>
+        <select name="masterdegree" id="masterdegree">
+            <option selected>-- Select your Master Degree --</option>
+            <option>ME</option>
+            <option>M.Sc</option>
+            <option>MCA</option>
+            <option>MBA</option>
+            <option>M.com</option>
+            <option>Others</option>
+        </select><br><br>
+        <label for="department1"> Department:</label>
+        <select name="department1" id="department1">
+            <option selected>-- Select your department --</option>
+            <option>Computer Science</option>
+            <option>Computer Application</option>
+            <option>Information Technology</option>
+            <option>Business Administration</option>
+            <option>Commerce</option>
+            <option>Mathematics</option>
+            <option>Others</option>
+        </select><br><br>
+        <label for="programminglanguage"> Programming Language :</label>
+        <input type="checkbox" id="programminglanguage1" name="programminglanguage1" value="Java">
+        <label for="vehicle1">Java</label>
+        <input type="checkbox" id="programminglanguag21" name="programminglanguage2" value="Javascript">
+        <label for="vehicle2">Javascript</label>
+        <input type="checkbox" id="programminglanguage3" name="programminglanguage3" value="Python">
+        <label for="vehicle3">Python</label>
+        <input type="checkbox" id="programminglanguage4" name="programminglanguage4" value="C#">
+        <label for="vehicle3">C#</label>
+        <input type="checkbox" id="programminglanguage5" name="programminglanguage5" value="php">
+        <label for="vehicle3">PHP</label><br>
+        <label for="address"><h4>Address:</h4></label>
+        <textarea name="address" id="address" placeholder="Enter your Address"></textarea><br><br>
+        <label for="resume">Attach Resume</label>
+        <input type="file" id="resume" name="resume"><br><br>
+        <input type="submit">
+        <input type="Reset">
+    </form>
+</body>
+
+</html>
